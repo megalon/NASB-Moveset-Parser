@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovesetParser", "Parser\MovesetParser.csproj", "{C932AE8F-5057-4F10-BACD-29AECED41697}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParserTests", "ParserTests\ParserTests.csproj", "{3249AFDD-18AA-445E-A84C-2F0BC0171523}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsonConverter", "JsonConverter\JsonConverter.csproj", "{5E0333D0-D962-4F8F-A1BE-953E7062B8EB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovesetConverterApp", "MovesetConverterApp\MovesetConverterApp.csproj", "{CE61DEED-B17B-4D8D-A737-3664F351DDB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C932AE8F-5057-4F10-BACD-29AECED41697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C932AE8F-5057-4F10-BACD-29AECED41697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C932AE8F-5057-4F10-BACD-29AECED41697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C932AE8F-5057-4F10-BACD-29AECED41697}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3249AFDD-18AA-445E-A84C-2F0BC0171523}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3249AFDD-18AA-445E-A84C-2F0BC0171523}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3249AFDD-18AA-445E-A84C-2F0BC0171523}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3249AFDD-18AA-445E-A84C-2F0BC0171523}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E0333D0-D962-4F8F-A1BE-953E7062B8EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E0333D0-D962-4F8F-A1BE-953E7062B8EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E0333D0-D962-4F8F-A1BE-953E7062B8EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E0333D0-D962-4F8F-A1BE-953E7062B8EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE61DEED-B17B-4D8D-A737-3664F351DDB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE61DEED-B17B-4D8D-A737-3664F351DDB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE61DEED-B17B-4D8D-A737-3664F351DDB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE61DEED-B17B-4D8D-A737-3664F351DDB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92FC8988-56E7-4271-A331-C6C7A96B92F4}
+	EndGlobalSection
+EndGlobal
