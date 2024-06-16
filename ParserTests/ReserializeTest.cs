@@ -10,7 +10,7 @@ namespace ParserTests
         [TestMethod]
         public void Test()
         {
-            var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("ParserTests.char_apple.txt");
+            var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("ParserTests.Moveset_characterBase.txt");
             var streamReader = new StreamReader(stream);
             var inputText = streamReader.ReadToEnd();
 

@@ -11,7 +11,7 @@ namespace ParserTests
         [TestMethod]
         public void SerializeTest()
         {
-            var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("ParserTests.char_flex.txt");
+            var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("ParserTests.Moveset_characterBase.txt");
             var streamReader = new StreamReader(stream);
             var inputText = streamReader.ReadToEnd();
 
@@ -25,7 +25,7 @@ namespace ParserTests
         [TestMethod]
         public void DeserializeTest()
         {
-            var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("ParserTests.char_flex.txt");
+            var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("ParserTests.Moveset_characterBase.txt");
             var streamReader = new StreamReader(stream);
             var inputText = streamReader.ReadToEnd();
 
@@ -41,7 +41,7 @@ namespace ParserTests
         [TestMethod]
         public void WriteoutTest()
         {
-            var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("ParserTests.char_flex.txt");
+            var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("ParserTests.Moveset_characterBase.txt");
             var streamReader = new StreamReader(stream);
             var inputText = streamReader.ReadToEnd();
 
@@ -49,7 +49,7 @@ namespace ParserTests
 
             var jsonStrings = MovesetSerializer.ToSplitJsonStrings(movesetIn);
 
-            var directoryPath = Path.Combine("C:\\Users\\Steven\\Desktop", "char_flex_moveset");
+            var directoryPath = Path.Combine("C:\\Users\\Steven\\Desktop", "Moveset_characterBase");
             Directory.CreateDirectory(directoryPath);
 
             foreach (var file in Directory.GetFiles(directoryPath))

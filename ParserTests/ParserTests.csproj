@@ -10,13 +10,11 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<None Remove="char_flex.txt" />
-		<None Remove="char_flex.txt" />
+	  <None Remove="Moveset_characterBase.txt" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<EmbeddedResource Include="char_apple.txt" />
-		<EmbeddedResource Include="char_flex.txt" />
+	  <EmbeddedResource Include="Moveset_characterBase.txt" />
 	</ItemGroup>
 
 	<ItemGroup>
