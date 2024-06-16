@@ -102,7 +102,7 @@ namespace JsonConverter
 
         public static Moveset FromFolder(string directory)
         {
-            var files = Directory.GetFiles(directory);
+            var files = Directory.GetFiles(directory).Where(x => Path.GetExtension(x).Equals(".json", StringComparison.CurrentCultureIgnoreCase)).ToArray();
             var allJsons = new string[files.Length];
 
             for (int i = 0; i < files.Length; i++)
