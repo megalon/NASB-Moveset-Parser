@@ -44,6 +44,7 @@ namespace JsonConverter.Converters
                 TypeId.FSMode => new FSMode(),
                 TypeId.FSJumps => new FSJumps(),
                 TypeId.FSRootAnim => new FSRootAnim(),
+                TypeId.FSLastAtk => new FSLastAtk(),
                 TypeId.FloatSource => new FloatSource(),
                 _ => throw new JsonException(),
             });
