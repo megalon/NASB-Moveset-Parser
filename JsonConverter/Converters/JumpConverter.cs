@@ -19,8 +19,9 @@ namespace JsonConverter.Converters
                 TypeId.HoldJump => new HoldJump(),
                 TypeId.AirDashJump => new AirDashJump(),
                 TypeId.KnockbackJump => new KnockbackJump(),
+                TypeId.DelayedJump => new DelayedJump(),
                 TypeId.Jump => new Jump(),
-                _ => throw new JsonException(),
+                _ => throw new JsonException()
             });
         }
 
