@@ -93,6 +93,7 @@ namespace JsonConverter.Converters
                 TypeId.SAPlayCategoryVoiceLine => new SAPlayCategoryVoiceLine(),
                 TypeId.SAStopVoiceLines => new SAStopVoiceLines(),
                 TypeId.SAOnLeaveParent => new SAOnLeaveParent(),
+                TypeId.SAPersistLocalFX => new SAPersistLocalFX(),
                 TypeId.StateAction => new StateAction(),
                 _ => throw new JsonException(),
             });
