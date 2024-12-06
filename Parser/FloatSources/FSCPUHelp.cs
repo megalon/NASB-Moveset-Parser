@@ -2,6 +2,7 @@
 
 namespace MovesetParser.FloatSources
 {
+    [Serializable]
     public class FSCPUHelp : FloatSource, IBulkSerializer
     {
         public CPUHelpAttribute Attribute = CPUHelpAttribute.DoingAttack;

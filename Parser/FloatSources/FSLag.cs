@@ -3,6 +3,7 @@ using MovesetParser.Misc;
 
 namespace MovesetParser.FloatSources
 {
+    [Serializable]
     public class FSLag : FloatSource, IBulkSerializer
     {
         public LagType LagType;

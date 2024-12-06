@@ -2,6 +2,7 @@
 
 namespace MovesetParser.FloatSources
 {
+    [Serializable]
     public class FSFrame : FloatSource, IBulkSerializer
     {
         public FSFrame() { }

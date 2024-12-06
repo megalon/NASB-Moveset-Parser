@@ -2,6 +2,7 @@
 
 namespace MovesetParser.FloatSources
 {
+    [Serializable]
     public class FSRandom : FloatSource, IBulkSerializer
     {
         public bool Ratio;

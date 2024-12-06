@@ -2,6 +2,7 @@
 
 namespace MovesetParser.FloatSources
 {
+    [Serializable]
     public class FSGrabs: FloatSource, IBulkSerializer
     {
         public GrabsAttribute Attribute = GrabsAttribute.AllowedToEscape;

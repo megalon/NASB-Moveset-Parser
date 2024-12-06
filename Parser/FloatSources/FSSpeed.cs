@@ -3,6 +3,7 @@ using MovesetParser.Misc;
 
 namespace MovesetParser.FloatSources
 {
+    [Serializable]
     public class FSSpeed : FloatSource, IBulkSerializer
     {
         public SpeedType SpeedType;

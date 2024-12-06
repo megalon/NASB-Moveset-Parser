@@ -2,6 +2,7 @@
 
 namespace MovesetParser.FloatSources
 {
+    [Serializable]
     public class FSVector2Mag : FloatSource, IBulkSerializer
     {
         public FloatSourceContainer X;

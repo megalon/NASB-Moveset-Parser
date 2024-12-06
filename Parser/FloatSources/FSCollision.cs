@@ -2,6 +2,7 @@
 
 namespace MovesetParser.FloatSources
 {
+    [Serializable]
     public class FSCollision : FloatSource, IBulkSerializer
     {
         public CollisionAttribute Attribute;

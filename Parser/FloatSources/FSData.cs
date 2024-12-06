@@ -2,6 +2,7 @@
 
 namespace MovesetParser.FloatSources
 {
+    [Serializable]
     public class FSData : FloatSource, IBulkSerializer
     {
         public string Id;

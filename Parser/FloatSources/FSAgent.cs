@@ -2,6 +2,7 @@
 
 namespace MovesetParser.FloatSources
 {
+    [Serializable]
     public class FSAgent : FloatSource, IBulkSerializer
     {
         public AgentAttribute Attribute = AgentAttribute.PlayerIndex;

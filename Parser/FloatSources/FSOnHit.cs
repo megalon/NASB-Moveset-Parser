@@ -2,6 +2,7 @@
 
 namespace MovesetParser.FloatSources
 {
+    [Serializable]
     public class FSOnHit : FloatSource, IBulkSerializer
     {
         public OnHitAttribute Attribute;

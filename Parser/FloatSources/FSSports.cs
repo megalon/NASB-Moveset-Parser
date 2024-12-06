@@ -2,6 +2,7 @@
 
 namespace MovesetParser.FloatSources
 {
+    [Serializable]
     public class FSSports : FloatSource, IBulkSerializer
     {
         public SportsAttribute Attribute;

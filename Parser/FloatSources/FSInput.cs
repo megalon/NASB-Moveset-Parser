@@ -2,6 +2,7 @@
 
 namespace MovesetParser.FloatSources
 {
+    [Serializable]
     public class FSInput : FloatSource, IBulkSerializer
     {
         public CheckInput Input;

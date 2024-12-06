@@ -2,6 +2,7 @@
 
 namespace MovesetParser.FloatSources
 {
+    [Serializable]
     public class FSScratch : FloatSource, IBulkSerializer
     {
         public int Scratch;

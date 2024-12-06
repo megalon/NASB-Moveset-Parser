@@ -2,6 +2,7 @@
 
 namespace MovesetParser.FloatSources
 {
+    [Serializable]
     public class FSRootAnim : FloatSource, IBulkSerializer
     {
         public RootAnimAttribute Attribute;

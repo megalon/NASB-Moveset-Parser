@@ -2,6 +2,7 @@
 
 namespace MovesetParser.FloatSources
 {
+    [Serializable]
     public class FloatSourceContainer : IBulkSerializer
     {
         public FloatSource FloatSource;

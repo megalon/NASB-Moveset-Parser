@@ -2,6 +2,7 @@
 
 namespace MovesetParser.FloatSources
 {
+    [Serializable]
     public class FSCameraInfo : FloatSource, IBulkSerializer
     {
         public CameraAttribute Attribute;

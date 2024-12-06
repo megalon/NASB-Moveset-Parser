@@ -2,6 +2,7 @@
 
 namespace MovesetParser.FloatSources
 {
+    [Serializable]
     public class FSJumps : FloatSource, IBulkSerializer
     {
         public JumpsAttribute Attribute;

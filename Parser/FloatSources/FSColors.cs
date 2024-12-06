@@ -2,6 +2,7 @@
 
 namespace MovesetParser.FloatSources
 {
+    [Serializable]
     public class FSColors : FloatSource, IBulkSerializer
     {
         public string ColorId;

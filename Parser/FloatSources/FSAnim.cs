@@ -2,6 +2,7 @@
 
 namespace MovesetParser.FloatSources
 {
+    [Serializable]
     public class FSAnim : FloatSource, IBulkSerializer
     {
         public string Animation;

@@ -2,6 +2,7 @@
 
 namespace MovesetParser.FloatSources
 {
+    [Serializable]
     public class FSItem : FloatSource, IBulkSerializer
     {
         public ItemAttribute Attribute = ItemAttribute.InterestWeight;

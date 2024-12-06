@@ -2,6 +2,7 @@
 
 namespace MovesetParser.FloatSources
 {
+    [Serializable]
     public class FSMovement : FloatSource, IBulkSerializer
     {
         public MovementAttribute Attribute;

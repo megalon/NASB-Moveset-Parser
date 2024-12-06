@@ -2,6 +2,7 @@
 
 namespace MovesetParser.FloatSources
 {
+    [Serializable]
     public class FSLastAtk : FloatSource, IBulkSerializer
     {
         public LastAtkAttribute Attribute;

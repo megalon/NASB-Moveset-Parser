@@ -2,6 +2,7 @@
 
 namespace MovesetParser.FloatSources
 {
+    [Serializable]
     public class FSTimer : FloatSource, IBulkSerializer
     {
         public string Id;

@@ -2,6 +2,7 @@
 
 namespace MovesetParser.FloatSources
 {
+    [Serializable]
     public class FSEffects : FloatSource, IBulkSerializer
     {
         public string LocalFxId;

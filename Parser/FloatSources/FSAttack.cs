@@ -2,6 +2,7 @@
 
 namespace MovesetParser.FloatSources
 {
+    [Serializable]
     public class FSAttack : FloatSource, IBulkSerializer
     {
         public AttackAttribute Attribute;

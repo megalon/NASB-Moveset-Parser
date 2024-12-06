@@ -2,6 +2,7 @@
 
 namespace MovesetParser.FloatSources
 {
+    [Serializable]
     public class FSBones : FloatSource, IBulkSerializer
     {
         public BoneAttribute Attribute = BoneAttribute.TiltAngle;

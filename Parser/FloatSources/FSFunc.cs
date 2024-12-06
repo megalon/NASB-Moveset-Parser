@@ -2,6 +2,7 @@
 
 namespace MovesetParser.FloatSources
 {
+    [Serializable]
     public class FSFunc : FloatSource, IBulkSerializer
     {
         public FuncWay Way;
