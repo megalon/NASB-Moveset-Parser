@@ -1,6 +1,7 @@
 ﻿namespace MovesetParser.Unity
 {
-    public struct Vector2
+    [Serializable]
+    public class Vector2
     {
         public static Vector2 zero => zeroVector;
         private static readonly Vector2 zeroVector = new Vector2(0, 0);
