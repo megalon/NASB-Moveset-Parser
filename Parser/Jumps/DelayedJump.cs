@@ -2,6 +2,7 @@
 
 namespace MovesetParser.Jumps
 {
+    [Serializable]
     public class DelayedJump : Jump, IBulkSerializer
     {
         public DelayedJump() { }

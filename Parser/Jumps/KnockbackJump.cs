@@ -3,6 +3,7 @@ using MovesetParser.FloatSources;
 
 namespace MovesetParser.Jumps
 {
+    [Serializable]
     public class KnockbackJump : Jump, IBulkSerializer
     {
         public FloatSourceContainer XDir;

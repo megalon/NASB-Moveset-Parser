@@ -2,6 +2,7 @@
 
 namespace MovesetParser.Jumps
 {
+    [Serializable]
     public class ClampMomentumJump : Jump, IBulkSerializer
     {
         public ClampMomentumJump() { }

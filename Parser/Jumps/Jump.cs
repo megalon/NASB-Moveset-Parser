@@ -2,6 +2,7 @@
 
 namespace MovesetParser.Jumps
 {
+    [Serializable]
     public class Jump : IBulkSerializer
     {
         public TypeId TID = 0;

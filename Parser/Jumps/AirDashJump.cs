@@ -2,6 +2,7 @@
 
 namespace MovesetParser.Jumps
 {
+    [Serializable]
     public class AirDashJump : Jump, IBulkSerializer
     {
         public AirDashJump() { }

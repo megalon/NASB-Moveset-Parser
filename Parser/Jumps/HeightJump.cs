@@ -3,6 +3,7 @@ using MovesetParser.FloatSources;
 
 namespace MovesetParser.Jumps
 {
+    [Serializable]
     public class HeightJump : Jump, IBulkSerializer
     {
         public FloatSourceContainer Height;
