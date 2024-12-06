@@ -3,6 +3,7 @@ using MovesetParser.FloatSources;
 
 namespace MovesetParser.Misc
 {
+    [Serializable]
     public class SpawnMovement : IBulkSerializer
     {
         public string toBone = string.Empty;

@@ -2,6 +2,7 @@
 
 namespace MovesetParser.Misc
 {
+    [Serializable]
     public class StandardInputTriggerConfig : IBulkSerializer
     {
         public byte[] DontCheckBytes = new byte[4];

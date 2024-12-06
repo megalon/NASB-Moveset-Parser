@@ -4,6 +4,7 @@ using System.Collections.Generic;
 
 namespace MovesetParser.Misc
 {
+    [Serializable]
     public class SAGUAMessageObject : IBulkSerializer
     {
         public string PlainMessage;
@@ -45,7 +46,8 @@ namespace MovesetParser.Misc
             }
         }
 
-        public class MsgDynamic : IBulkSerializer
+    [Serializable]
+    public class MsgDynamic : IBulkSerializer
         {
             public string Id = string.Empty;
             public ObjectSourceContainer ObjectSourceContainer;

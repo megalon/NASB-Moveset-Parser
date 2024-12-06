@@ -3,6 +3,7 @@ using MovesetParser.StateActions;
 
 namespace MovesetParser.Misc
 {
+    [Serializable]
     public class InputTrigger : IBulkSerializer
     {
         public int SniffFrames = 1;

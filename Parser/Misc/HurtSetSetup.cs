@@ -3,6 +3,7 @@ using MovesetParser.FloatSources;
 
 namespace MovesetParser.Misc
 {
+    [Serializable]
     public class HurtSetSetup : IBulkSerializer
     {
         public HurtBone[] HurtBones;
@@ -49,7 +50,8 @@ namespace MovesetParser.Misc
             }
         }
 
-        public class HurtBone : IBulkSerializer
+    [Serializable]
+    public class HurtBone : IBulkSerializer
         {
             public HurtType type;
             public FloatSourceContainer armor;

@@ -2,6 +2,7 @@
 
 namespace MovesetParser.Misc
 {
+    [Serializable]
     public class AnimConfig : IBulkSerializer
     {
         public float Rate;

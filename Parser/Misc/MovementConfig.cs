@@ -2,6 +2,7 @@
 
 namespace MovesetParser.Misc
 {
+    [Serializable]
     public class MovementConfig : IBulkSerializer
     {
         public bool GetParented;
