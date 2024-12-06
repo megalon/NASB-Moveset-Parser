@@ -3,6 +3,7 @@ using MovesetParser.StateActions;
 
 namespace MovesetParser
 {
+    [Serializable]
     public class TimedAction : IBulkSerializer
     {
         public float AtFrame;

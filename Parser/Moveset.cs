@@ -3,6 +3,7 @@ using System.Diagnostics;
 
 namespace MovesetParser
 {
+    [Serializable]
     public class Moveset : IBulkSerializer
     {
         public IdState[] States;

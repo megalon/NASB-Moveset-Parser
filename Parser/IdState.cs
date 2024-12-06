@@ -2,6 +2,7 @@
 
 namespace MovesetParser
 {
+    [Serializable]
     public class IdState : IBulkSerializer
     {
         public string Id;

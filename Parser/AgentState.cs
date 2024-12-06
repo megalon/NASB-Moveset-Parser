@@ -3,6 +3,7 @@ using System;
 
 namespace MovesetParser
 {
+    [Serializable]
     public partial class AgentState : IBulkSerializer
     {
         public TimedAction[] Timeline;
