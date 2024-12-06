@@ -2,6 +2,7 @@
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SAEndAttack : StateAction, IBulkSerializer
     {
         public SAEndAttack() { }

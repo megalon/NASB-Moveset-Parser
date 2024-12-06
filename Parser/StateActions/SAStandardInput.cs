@@ -4,6 +4,7 @@ using MovesetParser.Misc;
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SAStandardInput : StateAction, IBulkSerializer
     {
         public FloatSourceContainer Frames;

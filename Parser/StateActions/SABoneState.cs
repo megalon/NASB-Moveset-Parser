@@ -2,6 +2,7 @@
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SABoneState : StateAction, IBulkSerializer
     {
         public string Bone = string.Empty;

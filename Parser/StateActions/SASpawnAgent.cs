@@ -4,6 +4,7 @@ using MovesetParser.Misc;
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SASpawnAgent : StateAction, IBulkSerializer
     {
         public string Bank = string.Empty;

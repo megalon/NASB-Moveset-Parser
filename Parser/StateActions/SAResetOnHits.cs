@@ -2,6 +2,7 @@
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SAResetOnHits : StateAction, IBulkSerializer
     {
         public SAResetOnHits() { }

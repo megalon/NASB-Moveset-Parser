@@ -2,6 +2,7 @@
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SADeactivateAction : StateAction, IBulkSerializer
     {
         public int Index;

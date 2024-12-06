@@ -2,6 +2,7 @@
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SAOnHit : StateAction, IBulkSerializer
     {
         public bool HitBox = true;

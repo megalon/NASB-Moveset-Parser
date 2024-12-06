@@ -2,6 +2,7 @@
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SAPlaySFX : StateAction, IBulkSerializer
     {
         public string SfxId = string.Empty;

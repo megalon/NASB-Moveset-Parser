@@ -2,6 +2,7 @@
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SAEventKOGrabbed : StateAction, IBulkSerializer
     {
         public SAEventKO.KO KoType;

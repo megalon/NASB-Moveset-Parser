@@ -2,6 +2,7 @@
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class StateAction : IBulkSerializer
     {
         public TypeId TID = 0;

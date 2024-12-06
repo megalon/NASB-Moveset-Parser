@@ -4,6 +4,7 @@ using MovesetParser.Misc;
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SASpawnAgent2 : StateAction, IBulkSerializer
     {
         public string Bank = string.Empty;
@@ -218,7 +219,8 @@ namespace MovesetParser.StateActions
             }
         }
 
-        public class AddedSpawnedData : IBulkSerializer
+    [Serializable]
+    public class AddedSpawnedData : IBulkSerializer
         {
             public string spawnedAgentDataId;
             public FloatSourceContainer spawnedAgentDataSetValue;

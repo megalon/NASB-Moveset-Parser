@@ -2,6 +2,7 @@
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SAOnLeaveParent : StateAction, IBulkSerializer
     {
         public StateAction Action;

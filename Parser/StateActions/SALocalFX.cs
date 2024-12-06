@@ -3,6 +3,7 @@ using MovesetParser.Misc;
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SALocalFX : StateAction, IBulkSerializer
     {
         public string Id = string.Empty;

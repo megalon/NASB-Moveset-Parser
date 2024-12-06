@@ -2,6 +2,7 @@
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SADeactivateInputAction : StateAction, IBulkSerializer
     {
         public string Id;

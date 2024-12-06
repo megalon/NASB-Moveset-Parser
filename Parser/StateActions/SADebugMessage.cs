@@ -2,6 +2,7 @@
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SADebugMessage : StateAction, IBulkSerializer
     {
         public string Message = string.Empty;

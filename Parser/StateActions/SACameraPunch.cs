@@ -3,6 +3,7 @@ using MovesetParser.FloatSources;
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SACameraPunch : StateAction, IBulkSerializer
     {
         public FloatSourceContainer X;

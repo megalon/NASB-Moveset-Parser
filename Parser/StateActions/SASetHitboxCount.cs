@@ -2,6 +2,7 @@
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SASetHitboxCount : StateAction, IBulkSerializer
     {
         public int HitBoxes;

@@ -3,6 +3,7 @@ using MovesetParser.FloatSources;
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SAPersistLocalFX : StateAction, IBulkSerializer
     {
         public string Id = string.Empty;

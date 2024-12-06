@@ -3,6 +3,7 @@ using MovesetParser.Misc;
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SAAddInputEventFromFrame : StateAction, IBulkSerializer
     {
         public GIEV AddEvent = GIEV.ActionFromFrame;

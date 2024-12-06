@@ -3,6 +3,7 @@ using MovesetParser.FloatSources;
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SAManipHitBox : StateAction, IBulkSerializer
     {
         public HBM[] Manips;
@@ -55,7 +56,8 @@ namespace MovesetParser.StateActions
             }
         }
 
-        public class HBM : IBulkSerializer
+    [Serializable]
+    public class HBM : IBulkSerializer
         {
             public Manip Manip;
             public int HitBox;

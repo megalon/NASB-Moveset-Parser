@@ -2,6 +2,7 @@
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SAOnLeaveEdge : StateAction, IBulkSerializer
     {
         public StateAction Action;

@@ -2,6 +2,7 @@
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SAUpdateHitboxes : StateAction, IBulkSerializer
     {
         public SAUpdateHitboxes() { }

@@ -3,6 +3,7 @@ using MovesetParser.Misc;
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SAManageAirJump : StateAction, IBulkSerializer
     {
         public Manage Manage;

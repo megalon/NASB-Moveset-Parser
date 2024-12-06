@@ -3,6 +3,7 @@ using MovesetParser.FloatSources;
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SAManipDecorChain : StateAction, IBulkSerializer
     {
         public int ManipIndex;

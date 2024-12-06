@@ -3,6 +3,7 @@ using MovesetParser.FloatSources;
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SAMapAnimationSimple : StateAction, IBulkSerializer
     {
         public string AnimId;
@@ -62,7 +63,8 @@ namespace MovesetParser.StateActions
             }
         }
 
-        public class MapPoint : IBulkSerializer
+    [Serializable]
+    public class MapPoint : IBulkSerializer
         {
             public FloatSourceContainer OffsetFrame;
             public FloatSourceContainer AnimFrame;

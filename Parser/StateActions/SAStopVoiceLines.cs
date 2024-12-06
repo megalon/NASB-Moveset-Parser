@@ -2,6 +2,7 @@
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SAStopVoiceLines : StateAction, IBulkSerializer
     {
         public string CategoryId;

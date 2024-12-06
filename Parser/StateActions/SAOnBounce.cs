@@ -2,6 +2,7 @@
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SAOnBounce : StateAction, IBulkSerializer
     {
         public StateAction Action;

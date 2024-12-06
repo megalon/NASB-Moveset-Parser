@@ -2,6 +2,7 @@
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SASetStagePartsDefault : StateAction, IBulkSerializer
     {
         public SASetStagePartsDefault() { }

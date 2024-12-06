@@ -4,6 +4,7 @@ using MovesetParser.Misc;
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SAManipHurtBox : StateAction, IBulkSerializer
     {
         public HBM[] Manips;
@@ -56,7 +57,8 @@ namespace MovesetParser.StateActions
             }
         }
 
-        public class HBM : IBulkSerializer
+    [Serializable]
+    public class HBM : IBulkSerializer
         {
             public Manip Manip;
             public int HurtBox;

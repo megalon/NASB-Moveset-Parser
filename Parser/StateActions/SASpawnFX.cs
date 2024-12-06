@@ -3,6 +3,7 @@ using MovesetParser.FloatSources;
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SASpawnFX : StateAction, IBulkSerializer
     {
         public string Id = string.Empty;

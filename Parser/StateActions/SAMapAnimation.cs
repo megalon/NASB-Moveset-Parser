@@ -3,6 +3,7 @@ using MovesetParser.FloatSources;
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SAMapAnimation : StateAction, IBulkSerializer
     {
         public MapPoint[] MapPoints;
@@ -55,7 +56,8 @@ namespace MovesetParser.StateActions
             }
         }
 
-        public class MapPoint : IBulkSerializer
+    [Serializable]
+    public class MapPoint : IBulkSerializer
         {
             public FloatSourceContainer AtFrame;
             public FloatSourceContainer Frames;

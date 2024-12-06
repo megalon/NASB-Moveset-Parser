@@ -3,6 +3,7 @@ using MovesetParser.CheckThings;
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SACheckThing : StateAction, IBulkSerializer
     {
         public CheckThing CheckThing;

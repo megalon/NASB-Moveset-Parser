@@ -2,6 +2,7 @@
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SAGrabNotifyEscape : StateAction, IBulkSerializer
     {
         public SAGrabNotifyEscape() { }

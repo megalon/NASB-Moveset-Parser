@@ -3,6 +3,7 @@ using MovesetParser.FloatSources;
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SASetFloatTarget : StateAction, IBulkSerializer
     {
         public SetFloat[] Sets;
@@ -53,7 +54,8 @@ namespace MovesetParser.StateActions
             }
         }
 
-        public class SetFloat : IBulkSerializer
+    [Serializable]
+    public class SetFloat : IBulkSerializer
         {
             public ManipWay Way;
             public FloatSourceContainer Target;

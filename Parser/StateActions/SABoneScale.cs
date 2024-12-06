@@ -3,6 +3,7 @@ using MovesetParser.FloatSources;
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SABoneScale : StateAction, IBulkSerializer
     {
         public string Bone = string.Empty;

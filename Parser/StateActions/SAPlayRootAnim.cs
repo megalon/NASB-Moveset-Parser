@@ -3,6 +3,7 @@ using MovesetParser.FloatSources;
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SAPlayRootAnim : StateAction, IBulkSerializer
     {
         public string Anim;

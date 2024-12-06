@@ -3,6 +3,7 @@ using MovesetParser.Jumps;
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SAJump : StateAction, IBulkSerializer
     {
         public string JumpId;

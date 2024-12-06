@@ -3,6 +3,7 @@ using MovesetParser.Misc;
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SASetupHurtboxes : StateAction, IBulkSerializer
     {
         public HurtSetSetup HurtSetSetup;

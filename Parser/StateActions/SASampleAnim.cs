@@ -2,6 +2,7 @@
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SASampleAnim : StateAction, IBulkSerializer
     {
         public SASampleAnim() { }

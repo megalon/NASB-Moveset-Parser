@@ -3,6 +3,7 @@ using MovesetParser.Misc;
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SAPlayAnim : StateAction, IBulkSerializer
     {
         public string Anim;

@@ -2,6 +2,7 @@
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SAPlayVoiceLine : StateAction, IBulkSerializer
     {
         public string LineId;

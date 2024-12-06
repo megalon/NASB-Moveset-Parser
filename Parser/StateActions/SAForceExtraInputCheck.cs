@@ -2,6 +2,7 @@
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SAForceExtraInputCheck : StateAction, IBulkSerializer
     {
         public SAForceExtraInputCheck() { }

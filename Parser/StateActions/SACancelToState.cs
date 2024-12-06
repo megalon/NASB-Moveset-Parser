@@ -2,6 +2,7 @@
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SACancelToState : StateAction, IBulkSerializer
     {
         public string ToState;

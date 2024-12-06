@@ -2,6 +2,7 @@
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SALaunchGrabbed : StateAction, IBulkSerializer
     {
         public string AtkProp = string.Empty;

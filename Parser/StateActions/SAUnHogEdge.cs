@@ -2,6 +2,7 @@
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SAUnHogEdge : StateAction, IBulkSerializer
     {
         public SAUnHogEdge() { }

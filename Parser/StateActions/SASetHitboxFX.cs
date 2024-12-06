@@ -2,6 +2,7 @@
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SASetHitboxFX : StateAction, IBulkSerializer
     {
         public int HitBox;

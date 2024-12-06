@@ -2,6 +2,7 @@
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SAStopJump : StateAction, IBulkSerializer
     {
         public bool StopAll;

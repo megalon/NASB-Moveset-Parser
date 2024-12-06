@@ -2,6 +2,7 @@
 
 namespace MovesetParser.StateActions
 {
+    [Serializable]
     public class SASnapAnimWeights : StateAction, IBulkSerializer
     {
         public bool ForceSample;
