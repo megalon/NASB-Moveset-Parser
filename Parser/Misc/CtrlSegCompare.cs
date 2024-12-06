@@ -1,5 +1,6 @@
 ﻿namespace MovesetParser.Misc
 {
+    [Serializable]
     public enum CtrlSegCompare
     {
         Outside = 1,

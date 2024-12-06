@@ -1,5 +1,6 @@
 ﻿namespace MovesetParser.Misc
 {
+    [Serializable]
     public enum CtrlSeg
     {
         Neutral = 1,

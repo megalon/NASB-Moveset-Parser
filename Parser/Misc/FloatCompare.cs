@@ -1,5 +1,6 @@
 ﻿namespace MovesetParser.Misc
 {
+    [Serializable]
     public enum FloatCompare
     {
         Equal,
