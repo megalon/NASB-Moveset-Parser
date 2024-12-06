@@ -2,6 +2,7 @@
 
 namespace MovesetParser.CheckThings
 {
+    [Serializable]
     public class CTCheckTech : CheckThing, IBulkSerializer
     {
         public string TechTimerID;

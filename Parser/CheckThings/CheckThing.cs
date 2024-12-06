@@ -2,6 +2,7 @@
 
 namespace MovesetParser.CheckThings
 {
+    [Serializable]
     public class CheckThing : IBulkSerializer
     {
         public TypeId TID = 0;

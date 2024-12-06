@@ -2,6 +2,7 @@
 
 namespace MovesetParser.CheckThings
 {
+    [Serializable]
     public class CTMove : CheckThing, IBulkSerializer
     {
         public string MovesetId;

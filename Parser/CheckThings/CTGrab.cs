@@ -2,6 +2,7 @@
 
 namespace MovesetParser.CheckThings
 {
+    [Serializable]
     public class CTGrab : CheckThing, IBulkSerializer
     {
         public CheckType Type;

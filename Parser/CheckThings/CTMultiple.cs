@@ -2,6 +2,7 @@
 
 namespace MovesetParser.CheckThings
 {
+    [Serializable]
     public class CTMultiple : CheckThing, IBulkSerializer
     {
         public CheckMatch Match = CheckMatch.All;

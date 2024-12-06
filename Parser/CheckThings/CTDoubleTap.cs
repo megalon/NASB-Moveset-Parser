@@ -2,6 +2,7 @@
 
 namespace MovesetParser.CheckThings
 {
+    [Serializable]
     public class CTDoubleTap : CheckThing, IBulkSerializer
     {
         public SimpleControlDir TapDirection = SimpleControlDir.Right;

@@ -2,6 +2,7 @@
 
 namespace MovesetParser.CheckThings
 {
+    [Serializable]
     public class CTGrabbedAgent : CheckThing, IBulkSerializer
     {
         public int MatchTagsCount;

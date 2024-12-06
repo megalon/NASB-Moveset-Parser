@@ -2,6 +2,7 @@
 
 namespace MovesetParser.CheckThings
 {
+    [Serializable]
     public class CTSkin : CheckThing, IBulkSerializer
     {
         public string MatchSkin;

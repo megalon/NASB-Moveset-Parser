@@ -3,6 +3,7 @@ using MovesetParser.FloatSources;
 
 namespace MovesetParser.CheckThings
 {
+    [Serializable]
     public class CTCompareFloat : CheckThing, IBulkSerializer
     {
         public CheckWay Way;

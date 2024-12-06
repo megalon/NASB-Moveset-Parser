@@ -3,6 +3,7 @@ using MovesetParser.Misc;
 
 namespace MovesetParser.CheckThings
 {
+    [Serializable]
     public class CTInput : CheckThing, IBulkSerializer
     {
         public InputValidator InputValidator;

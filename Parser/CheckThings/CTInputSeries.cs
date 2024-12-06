@@ -3,6 +3,7 @@ using MovesetParser.Misc;
 
 namespace MovesetParser.CheckThings
 {
+    [Serializable]
     public class CTInputSeries : CheckThing, IBulkSerializer
     {
         public int CheckFrames;
@@ -67,7 +68,8 @@ namespace MovesetParser.CheckThings
             }
         }
 
-        public class LookForInput : IBulkSerializer
+    [Serializable]
+    public class LookForInput : IBulkSerializer
         {
             public int matchMinFrames;
 
