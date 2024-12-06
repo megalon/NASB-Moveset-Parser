@@ -2,6 +2,7 @@
 
 namespace MovesetParser.ObjectSources
 {
+    [Serializable]
     public class ObjectSource : IBulkSerializer
     {
         public TypeId TID = 0;

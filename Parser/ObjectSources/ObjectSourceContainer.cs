@@ -2,6 +2,7 @@
 
 namespace MovesetParser.ObjectSources
 {
+    [Serializable]
     public class ObjectSourceContainer : IBulkSerializer
     {
         public ObjectSource ObjectSource;

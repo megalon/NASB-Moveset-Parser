@@ -3,6 +3,7 @@ using MovesetParser.FloatSources;
 
 namespace MovesetParser.ObjectSources
 {
+    [Serializable]
     public class OSVector2 : ObjectSource, IBulkSerializer
     {
         public FloatSourceContainer X;
