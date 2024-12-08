@@ -3,11 +3,12 @@ using MovesetParser.FloatSources;
 
 namespace MovesetParser.Misc
 {
+    [Serializable]
     public partial class InputValidator : IBulkSerializer
     {
         public InputType InputType = InputType.Attack;
         public bool RawX;
-        public FloatSourceContainer FloatValue = new(new FloatSource());
+        public FloatSourceContainer FloatValue;
         public CtrlSeg Segment;
         public FloatCompare FloatCompare;
         public ButtonCompare ButtonCompare = ButtonCompare.Down;
@@ -15,7 +16,9 @@ namespace MovesetParser.Misc
         public MultiCompare MultiCompare = MultiCompare.Any;
         public InputValidator[] Validators;
 
-        public InputValidator() { }
+        public InputValidator() {
+            FloatValue = new(new FloatSource());
+        }
 
         private void EnsureStuff()
         {
