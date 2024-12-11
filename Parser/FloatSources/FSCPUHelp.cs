@@ -39,14 +39,14 @@ namespace MovesetParser.FloatSources
             AntiStun = 5,
             QuirkOpportunity = 6,
             Dead = 7,
-            Helpless = 14,
-            Launched = 15,
             DoingAttack = 8,
             DoingStrongAttack = 9,
             DoingSpecialAttack = 10,
             DoingAttackUp = 11,
             DoingAttackMid = 12,
             DoingAttackDown = 13
+            Helpless = 14,
+            Launched = 15,
         }
     }
 }
