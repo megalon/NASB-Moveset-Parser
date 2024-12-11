@@ -34,16 +34,16 @@ namespace MovesetParser.FloatSources
             CtrlX = 0,
             CtrlXRaw = 1,
             CtrlY = 2,
-            CtrlX2nd = 10,
-            CtrlX2ndRaw = 11,
-            CtrlY2nd = 12,
             Attack = 3,
             Strong = 4,
             Special = 5,
             Jump = 6,
             Defend = 7,
             Fun = 8,
-            Grabmacro = 9
+            Grabmacro = 9,
+            CtrlX2nd = 10,
+            CtrlX2ndRaw = 11,
+            CtrlY2nd = 12,
         }
     }
 }
