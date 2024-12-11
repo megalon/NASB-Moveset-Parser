@@ -36,15 +36,15 @@ namespace MovesetParser.FloatSources
             Hitpos_z = 2,
             Hitwasinvincible = 3,
             Hitwasblock = 4,
+            Hurtdamage = 5,
             Hitwellblocked = 6,
             Hitperfectblocked = 7,
-            Hitwasclean = 13,
-            Hurtdamage = 5,
-            Hurtknockback = 12,
-            Hitdamage = 9,
-            Hurtwellblocked = 11,
             Hurtperfectblocked = 8,
-            Hurtattacktype = 10
+            Hitdamage = 9,
+            Hurtattacktype = 10,
+            Hurtwellblocked = 11,
+            Hurtknockback = 12,
+            Hitwasclean = 13,
         }
     }
 }
